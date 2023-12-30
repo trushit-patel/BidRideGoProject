@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_upcoming_trips"
+            android:icon="@drawable/upcomingicon"
+            android:title="@string/upcoming_trips" />
+        <item
+            android:id="@+id/nav_past_trips"
+            android:icon="@drawable/past_trip_icon"
+            android:title="@string/past_trips" />
+        <item
+            android:id="@+id/nav_become_driver"
+            android:icon="@drawable/drivericon"
+            android:title="@string/become_driver" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/paymenticon"
+            android:title="@string/payment" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logouticon"
+            android:title="@string/logout" />
+    </group>
+</menu>

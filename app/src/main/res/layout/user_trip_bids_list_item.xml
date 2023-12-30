@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Circular ImageView for User Circle -->
+        <ImageView
+            android:id="@+id/bids_user_circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_car"
+            android:padding="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/circularbackground"/>
+
+        <!-- Driver Name -->
+        <TextView
+            android:id="@+id/bids_driver_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Driver Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <!-- Cost on the Right -->
+        <TextView
+            android:id="@+id/bids_cost"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Cost"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="end"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView to cover the entire screen -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home" />
+
+    <!-- Button 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/register"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/button"
+            app:backgroundTint="@color/golden"
+            android:textColor="@color/purple_700"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/register"
+            android:layout_margin="16dp" />
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:backgroundTint="@color/golden"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            style="@style/button"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register"
+            android:text="@string/login"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

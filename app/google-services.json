@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788935365811",
+    "project_id": "bidridego",
+    "storage_bucket": "bidridego.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788935365811:android:16cfe3662e9fd055f30cc6",
+        "android_client_info": {
+          "package_name": "com.bidridego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbnIXDtc3ZF2wlzjhYVZaW960XW8Ss0m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

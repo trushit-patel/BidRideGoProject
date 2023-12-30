@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bidridego.user.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_upcoming_trips"
+        android:name="com.bidridego.user.FragmentUpcomingTrips"
+        android:label="@string/upcoming_trips"
+        tools:layout="@layout/user_fragment_upcoming_trips_list" />
+    <fragment
+        android:id="@+id/nav_past_trips"
+        android:name="com.bidridego.user.FragmentPastTrips"
+        android:label="@string/past_trips"
+        tools:layout="@layout/user_fragment_past_trips_list" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.bidridego.ui.slideshow.SlideshowFragment"
+        android:label="@string/payment"
+        tools:layout="@layout/dummy_fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_become_driver"
+        android:name="com.bidridego.ui.slideshow.SlideshowFragment"
+        android:label="@string/become_driver"
+        tools:layout="@layout/dummy_fragment_slideshow" />
+    <dialog
+        android:id="@+id/dialog_become_driver"
+        android:name="com.bidridego.user.BecomeDriverDialog"
+        android:label="Become a Driver Dialog" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.bidridego.ui.slideshow.SlideshowFragment"
+        android:label="@string/logout" />
+
+    <action
+        android:id="@+id/action_nav_become_driver_to_dialog_become_driver"
+        app:destination="@id/dialog_become_driver" />
+</navigation>

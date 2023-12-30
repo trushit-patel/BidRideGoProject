@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">bidridego</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="upcoming_trips">Upcoming Trips</string>
+    <string name="past_trips">Past Trips</string>
+    <string name="payment">Payment</string>
+    <string name="become_driver">Switch to Driver</string>
+
+    <string name="driver_trips">Trips List</string>
+    <string name="my_bids">My Bids</string>
+    <string name="rating">Rating</string>
+    <string name="logout">Logout</string>
+
+    <!--    activity_login-->
+    <string name="signUp">Sign Up</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <!--    activity_home-->
+    <string name="register">Register</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key">"AIzaSyB4a-cPEPuPYBvNhxFXjEd4Pjtn6x4jXdo"</string>
+    <string name="title_driver_activity_main">DriverMainActivity</string>
+    <!--    activity_register-->
+    <string name="switch_to_user">Switch to User</string>
+    <string name="switch_to_driver">Switch to Driver</string>
+
+</resources>
